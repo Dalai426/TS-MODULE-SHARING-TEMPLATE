@@ -1,0 +1,22 @@
+{
+  "name": "@united-alliance-ulibrary/upoint-logger",
+  "version": "0.0.1",
+  "main": "../dist/lib/index.js",
+  "types": "../dist/index.d.ts",
+  "files": [
+    "../dist/lib"
+  ],
+  "publishConfig": {
+    "@united-alliance-ulibrary:registry": "https://gitlab.com/api/v4/projects/58299591/packages/npm/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "peerDependencies": {
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.5.3",
+    "zod": "^3.23.8"
+  }
+}
